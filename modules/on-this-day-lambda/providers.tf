@@ -3,7 +3,7 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Service     = "example lambda"
+      Service     = "on this day"
       Environment = var.environment
       Terraform   = "True"
     }

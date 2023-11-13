@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "isobel-terraform-store"
-    key    = "dev/example-lambda.tf"
+    key    = "dev/on-this-day-lambda.tf"
     region = "eu-west-1"
     acl    = "bucket-owner-full-control"
   }

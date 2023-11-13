@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "lambda_name" {
-  default = "example-lambda-function"
+  default = "on-this-day"
 }
 
 variable "environment" {
