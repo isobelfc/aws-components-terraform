@@ -11,4 +11,8 @@ resource "aws_lambda_function" "lambda" {
   timeout = 15
 
   runtime = "python3.11"
+
+  layers = [
+    data.aws_lambda_layer_version.common_libraries_layer.arn
+  ]
 }
