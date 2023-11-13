@@ -1,5 +1,5 @@
 module "lambda" {
-  source = "../module"
+  source = "../../modules/on-this-day-lambda"
 
   environment = var.environment
 }

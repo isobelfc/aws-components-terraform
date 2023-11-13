@@ -1,3 +1,3 @@
-# Lambda
+# AWS Components Provisioned by Terraform
 
-A basic lambda provisioned by Terraform
+A selection of AWS components for learning purposes
