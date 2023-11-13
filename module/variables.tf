@@ -7,5 +7,5 @@ variable "lambda_name" {
 }
 
 variable "environment" {
-  description = "The environment to deploy to"  
+  description = "The environment to deploy to"
 }
