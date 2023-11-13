@@ -5,3 +5,7 @@ variable "aws_region" {
 variable "lambda_name" {
   default = "example-lambda-function"
 }
+
+variable "environment" {
+  description = "The environment to deploy to"  
+}
